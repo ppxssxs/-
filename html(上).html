@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html（上）</title>
+</head>
+<body>
+    <h1 id ="top">第七周学习报告</h1>
+    <a href ="#one">HTML简介</a><br/>
+    <a href="#two">HTML标签</a>
+    <h3 id ="one">HTML简介</h3>
+    <a href = "#1.1">网页</a>
+    <a href = "#1.2">HTML</a>
+    <a href = "#1.3">超文本的两层含义</a>
+    <a href = "#1.4">Web标准</a>
+    <a href = "#1.5">Web标准的优点</a>
+    <a href = "#1.6">Web标准的构成</a>
+    <p>
+        <strong id = "1.1">1.网页：</strong><br/>
+        网页是图片、链接、文字、声音、视频等元素组成，其实就是一个html文件<br/>
+        网页生成制作：由前端人员书写html文件，用浏览器打开后就可以看到网页了<br/>
+    </p>
+    <p>
+        <strong id = "1.2">2.HTML：</strong><br/>
+        HTML指的是<ins>超文本标记语言</ins>，它是用来描述网页的一种语言<br/>
+        HTML不是一种编程语言，而是一种<ins>标记语言</ins>。<br/>
+        标记语言是一套<ins>标记标签</ins>，比如图片标签、链接标签、视频标签等等。
+    </p>
+    <p>
+        <strong id ="1.3">3.超文本的两层含义</strong><br/>
+        它可以加入图片、声音、动画、多媒体等内容<br/>
+        它还可以从一个文件跳转到另一个文件，与世界各地的主机的文件链接（超级文本链接）<br/>
+    </p>
+    <p>
+        <strong id = "1.4">4.Web标准：</strong>
+        Web标准是由W3C组织（万维网联盟）和其他标准化组织指定==制定的一系列标准的集合<br/>
+        为什么需要Web标准？<br/>
+        浏览器不同，他们显示页面的排版就有些差异，所以要通过Web标准来让不同的浏览器展示统一内容<br/>
+    </p>
+    <p>
+        <strong id = "1.5">5.Web标准的优点：</strong><br/>
+        I:&nbsp;Web的发展前景更广阔<br/>
+        II:&nbsp;内容能被更广泛的设备访问<br/>
+        III:&nbsp;更容易被搜索引擎搜索<br/>
+        IV:&nbsp;降低网站流量费用<br/>
+        V:&nbsp;使网站更易于维护<br/>
+        VI:&nbsp;提高页面浏览速度<br/>
+        (总之，Web标准就是好)<br/>
+    </p>
+    <p>
+        <strong id ="1.6">6.Web标准的构成</strong><br/>
+       I:结构(类似身体)：用于对网页元素进行整理和分类，现阶段主要学<ins>HTML</ins><br/>
+       II:表现(类似外观装饰)：用于设置网页元素的版式、颜色、大小等外观样式，主要指<ins>CSS</ins><br/>
+       III:行为(类似行为动作)：指网页模型的定义及交互的编写，现阶段主要学<ins>JavaScipt</ins><br/>
+       Web标准提出的最佳体验方案：<ins>结构、样式、行为相分离</ins><br/>
+       即：结构写到<ins>HTML文件</ins>中，表现写到<ins>CSS文件</ins>中，行为写到<ins>JavaScipt文件</ins>中。
+    </p>
+    <h4><a href="#top">返回顶部</a></h4>
+    <h3 id = "two">HTML标签</h3>
+    <a href = "#2.1">语法规范</a>
+    <a href = "#2.2">常用标签</a>
+    <a href = "#2.3">文本格式化标签</a>
+    <a href = "#2.4">&lt;/div&gt;和&lt;span&gt;标签</a>
+    <a href = "#2.5">图像标签和路径</a>
+    <a href = "#2.6">超链接标签</a>
+    <a href = "#2.7">表格标签</a>
+<p>
+    <strong id ="2.1">1.语法规范：</strong>
+HTML标签是由尖括号包围的关键词(标签一定要在尖括号内)，如&lt;html&gt;。<br/>
+通常是成对出现的，开始和结束标签，例如&lt;html&gt;和&lt;/html&gt;，我们称为双标签(结束标签多了一个反斜杠)<br/>
+有些标签必须是单个标签(极少情况)，称为单标签，如&lt;br/&gt;(在标签后加反斜杠)<br/>
+标签关系：包含关系和并列关系<br/>
+</p>
+<p>
+
+    <strong id = "2.2">2.常用标签:</strong><br/>
+    标签语义：即标签的含义，理解标签的作用。<br/>
+    根据标签的语义在合适的地方给一个合理的标签可以让页面结构更清晰<br/><br/>
+    I:标题标签：HTML提供了6个，即&lt;h1&gt;--&lt;h6&gt;
+    是双标签&nbsp;&nbsp; &lt;h1&gt;…&lt;/h1&gt;&nbsp; （一级标签）<br/>
+    语义：作为标题使用，并且依据重要性递减<br/><br/>
+    特点：<br/>
+    1、加了标题的文字会变得加粗，字号也会变大<br/>
+    2、一个标题独占一行 <br/>
+<br/>
+    II:段落标签和换行标签:
+    &lt;P&gt;…&lt;/p&gt;&nbsp;&nbsp;&nbsp;(双称签)<br/>
+    用于定义段落，可以将整个网分为若干个段落<br/><br/>
+    特点：<br>
+    1、文本在一个段落中会根据浏览器的窗口的大小自动换行<br>
+    2、段落和段落之间保有空隙<br/><br/>
+    
+    &lt;br/&gt;(break的缩写) &nbsp;&nbsp;(单标签)<br/> 
+    遇到&lt;/br&gt;，就会强制换行<br/>
+    &lt;/br&gt;标签只是简单地开始新的一行，和段落不一样，段落之间会插入一些垂直的间距
+</p>
+<p>
+    <strong id = "2.3">3.文本格式化标签:</strong><br/>
+在网页中，有时需要为文字设置粗体、斜体或下划线等效果这时就需要用到HTML中的文本格式化标签，使文字以特殊的方式显示。<br/>
+语义：突出重要性，比普通文字更重要<br/><br>
+
+<table border = "1">
+<tr><th>语义</th><th>标签</th><th>说明</th></tr>
+<tr><td>加粗</td> <td>&lt;strong&gt;&nbsp;&lt;/strong&gt;或&lt;b&gt;&nbsp;&lt;/b&gt;</td>  <td>更推荐&lt;strong&gt;，语义更强烈</td></tr>
+<tr><td>倾斜</td>  <td>&lt;em&gt;&nbsp;&lt;/em&gt;或&lt;i&gt;&nbsp;&lt;/i &gt;</td>    <td>更推荐&lt;em&gt;，语义更强烈</td></tr>
+<tr><td>删除线</td>  <td>&lt;del&gt;&nbsp;&lt;/del&gt;或&lt;s&gt;&nbsp;&lt;/s&gt;</td> <td>更推荐&lt;del&gt;，语义更强烈</td></tr>
+<tr><td>下划线</td> <td>&lt;ins&gt;&nbsp;&lt;/ins&gt;或&lt;u&gt;&nbsp;&lt;/u&gt;</td>  <td>更推荐&lt;ins&gt;，语义更强烈</td></tr>
+</table>
+
+</p>
+<p>   
+4.<strong id = "2.4">&lt;div&gt;和&lt;span&gt;标签 &nbsp;（一个空间）</strong><br/>
+&lt;/div>和&lt;/span&gt;是没有语义的，它们就是一盒子用来装内容的。<br/>
+I、&lt;div&gt;标签用来布局，但是现在一个&lt;div&gt;标签的内容就会占一行。<br/>
+II、&lt;span&gt;标签用来布局，一行上可以放多个&lt;span&gt;标签。<br/>
+</p>
+<p>
+<strong id = "2.5">5.图像标签和路径:</strong><br/><br/>
+图像标签：&lt;img/&gt; 单标签<br/>
+结构：&lt;img src=“图像URL”/&gt;<br/>
+图像URL:文件名字十后缀名<br/>
+src是&lt;img>标签的必须属性，它用于指定图像文件的路径和文件名。<br/>
+属性：简单了解就是属于这个标签的特性<br/>
+<ins>注:图片要和html所在文件放在同一个文件夹里。</ins><br/><br/>
+
+图像标签的其他属性:<br/>
+<table border = "1">
+<tr><th>属性</th> <th>属性值</th> <th>说明</th></tr>
+<tr><td>alt</td> <td>文本</td>  <td>替换文本，图像不能显示时用文字代替</td></tr>
+<tr><td>title</td> <td>文本</td> <td>提示文本，鼠标放在图像上显示的文字</td></tr>
+<tr><td>width</td> <td>像素</td><td>设置图像的宽度</td></tr>
+<tr><td>height</td> <td>像素</td> <td>设置图像的高度</td></tr>
+<tr><td>border</td> <td>像素</td> <td>设置图像的边框粗细</td></tr>
+</table>
+用法：&lt;img src="img.jpg"  alt="66666"/&gt;<br/>
+当img、jpg图片显示不出来时就会显示66666<br/>
+&lt;img src="img jpg"  title="66666"/&gt;<br/>
+当用鼠标放到图片上时就会显示66666<br/>
+&lt;img src="img. jpg"  width="666"/&gt;<br/>
+图片的宽度就会是666<br/>
+一般实际开发中只用修改宽度或高度的其中一个图片会自动等比例缩放<br/>
+&lt;img src="img.jpg"  border="15"/&gt;<br/>
+图片就会加上一个黑色的15像素的大边框<br/>
+<ins>注：多个属性可以同时放在同一个&lt;img/&gt;标签内</ins><br/><br/>
+
+图像标签注意点：<br/>
+①图像标签可以拥有多个属性，必须写在标签名后面<br/>
+②属性之间不分先后顺序，标签名与属性、属性与属性均以空格分开 <br/>
+③属性采取键值对的格式<br/>
+即key=“valve"的格式，属性= “属性值” <br/>
+</p>
+<p>
+路径:<br/>
+目录文件夹：普通的一个文件夹，存放做页面的所需材料。<br/>
+根目录：打开目录文件夹的第一层就是根目录<br/><br/>
+
+路径——相对路径：<br/>
+以引用文件所在位置为参考基础，而建立出的目录路径<br/>
+简单来说就是图片相对于HIML页面的位置<br/>
+<table border = "1"
+<tr><th>相对路径分类</th> <th>符号</th> <th>说明</th></tr>
+<tr><td>同一级路径</td> <td>&nbsp;&nbsp</td>     <td>如&lt;img src="baidu.gif"/&gt;</td></tr>
+<tr><td>下一级路径</td> <td> &nbsp;&nbsp;/</td>  <td>如&lt;img ="images/baidd.gif/&gt;</td></tr>
+<tr><td>上一级路径</td> <td>.../ </td>  <td>如&lt;img=".../baidy.gif"/&gt;</tr></td>
+</table>
+出现嵌套文件夹则可以用符号再依次类推<br/><br/>
+
+    路径—绝对路经(不怎么用):<br/>
+    指目录下的绝对位置，直接到达目标位置，通常是从盘符开始的路径<br/>
+    例如：“D:\web\limg\logo.gif"<br/>
+    或者完整的网络址<br/>
+    "Http:llwww.itcast.cn/images/logo.gif"<br/>
+    &lt;img src="  ...  "/&gt;<br/>
+    </p>
+    <p>
+    <strong id = "2.6">6.超链接标签:</strong><br/>
+    在HTML标签中，<a>标签用于定义超链接，作用是从一个面链接到另一个面<br/>
+    I.链接的语法格式 :<br/>
+    &lt;a href="跳转目标"target="目标窗口弹出方式"&gt;文本图像 &lt;/a&gt;<br/>
+    点击对应的文本图像就会跳转页面<br/>
+    <table border="1">
+    <tr><th>属性</th> <th>作用</th>
+    <tr><td>href</td>  <td>用于指定链接目标的url地址，(必须属性)当标签应用hre属性时，它就具有了超链接的功能</td></tr>
+    <tr><td>target</td> <td>用于指定链接页面的打开方式,其中_self为默认值(在当前窗口打开)，_blank为在新窗口打开</td></tr>
+    </table>
+    II.链接分类:<br/>
+1、外部链接：去往外部网站<br/>
+&lt;a href="http://www.qq.com" target="_blank">腾讯&lt;/a&gt;<br/>
+
+2、内部链接：网站内部页面之间的相互链接，直接链接内部页面名称即可.<br/>
+例：&lt;a href="index.html”>首页&lt;/a&gt;<br/>
+3、空链接：如果当时没有确定链接目标时<br/>
+&lt;a href="#">首页&lt;/a&gt;<br/>
+4、下载链接：如果href内地址是一个文件或者压缩包，就会下载这个文件<br/>
+5、网页元素链接：在网页中的各种网页元素.<br/>
+如文本、图像、音频，视频等都可以添加超链接<br/>
+例：&lt;a href "http://www baidu.com"&gt;<br/>
+&lt;img src = "img.jpg"/&gt;&lt;/a&gt;<br/>
+6、锚点链接：可以快速定位到页面中的某个位置<br/>
+步骤：<br/>
+1.在链连接文本的href属性中，设置属性值为#名字的形式<br/>
+&lt;a href=“#two”第2集介绍&lt;/a&gt;<br/>
+<INS>(名字不可以用中文!!!)</INS><br/>
+2.找到目标位置标签，里面添加一个id属性=刚才的名<br/>
+如：&lt;h3 i=“two”&gt;第二集介绍&lt;/h3&gt;<br/>
+点击 &nbsp;第二集 &nbsp;就会跳到 &nbsp;第二集介绍 &nbsp;这个位置<br/><br/>
+
+注释：<br/>
+HTML中的注释以“&lt;!--“开头，以“…&gt;”结束<br/>
+&lt;!--注释语句--&gt;  &nbsp;&nbsp;快捷键：ctrl+ /<br/>
+注释标签的内容不会显示到网页上<br/>
+<br/>
+特殊字符：在HIML页面中，一些特殊的符号很难或者不方面直接使用，就可以用字符来替代<br/>
+
+<table border = "1">
+<tr><th>特殊字符</th> <th>描述</th> <th>字符的代码</th></tr>
+<tr><td>&nbsp;</td>   <td>空格符 </td>   <td>&amp;nbsp;</td></tr>
+<tr> <td>&lt;</td>    <td>小于号 </td>   <td> &amp;lt;</td></tr>
+<tr> <td>&gt;</td>    <td>大于号 </td>   <td> &amp;gt;</td></tr>
+<tr>  <td>& </td>     <td>和号   </td>   <td>&amp;amp;</td></tr>
+</table>
+(其余的特殊字符一般很少用到，用到的时候在查（太多啦）)
+</p>
+<p>
+    <strong id = "2.7">7.表格标签</strong><br/>
+1、表格主要用于显于、展示数据，让数据显示非常规整<br/>
+2、基本语法: <br/><br/>
+&lt;table&gt;<br/>
+&lt;tr&gt;<br/>
+&lt;td&gt;单元格内的文字&lt;/td&gt;<br/>
+...<br/>
+&lt;/tr&gt;<br/>
+&lt;/table&gt;<br/><br/>
+①&lt;table&gt;是用于定义表格的标签<br/>
+②&lt;tr&gt;标签用于定义表格中的行，必须嵌套在&lt;table&gt;&lt;/table&gt;中<br/>
+③&lt;td&gt;用于定义表格中的单元格，必须嵌套在<br/>
+&lt;tr&gt;&lt;/tr&gt;中<br/>
+④字母td指表格数据(table.data)，即数据单元格的内容<br/><br/>
+3、表头单元格：一般位于表格的第一行或第一列，表头就格内的内容加粗居中显示<br/><br/>
+&lt;th&gt; (table head)<br/>
+&lt;tr&gt;<br/>
+&lt;th&gt;姓名&lt;/th&gt;<br/>
+&lt;/tr&gt;<br/>
+(第一行的“姓名”就会加粗居中)<br/><br/>
+
+4、表格属性(不常用，后面通过CSS来设置)<br/>
+<table border = "1">
+<tr><th>属性名</th> <th>属性值</th> <th>描述</th></tr>
+<tr><td>align</td>        <td>left、center、vight</td> <td>规定表格相对周围元素的对齐方式</td></tr>
+<tr><td>border</td>       <td>1或"&nbsp; " </td>  <td>规定单元性表格单元是否拥有边框，默认为" "，表示没有边框</td></tr>
+<tr><td>cellpadding</td>  <td>像素值</td>   <td>规定单元边沿与其内容之间的空白默认像素1</td></tr>
+<tr><td>cellspasing</td>   <td>像素值</td>   <td>规定单元格之间的空白默认像素2</td></tr>
+<tr><td>width</td> <td>像素值或百分比</td> <td>规定表格的宽度</td></tr>
+</table>
+表示方法：&lt;table align="center" border="1" cellpnhding="&nbsp;"&gt;  &lt/table&gt;<br/>
+</p>
+<h4><a href="#top">返回顶部</a></h4>
+    </body>
+</html>
